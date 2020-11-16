@@ -1,0 +1,17 @@
+Numero Di Caramelle: 50
+Prezzo Di Una Caramella: 0.1
+Numero Di Caramelle Da Comprare: 3
+Prezzo Totale: 0.3
+Soldi Dell'Utente: 2.0
+Resto: 1.7
+Numero Di Caramelle: 47
+Numero Di Caramelle Da Comprare: 31
+Prezzo Totale: 3.1000001
+Soldi Dell'Utente: 10.0
+Resto: 6.8999996
+Numero Di Caramelle: 16
+Numero Di Caramelle Da Comprare: 16
+Prezzo Totale: 1.6
+Soldi Dell'Utente: 3.0
+Resto: 1.4
+Numero Di Caramelle: 0
