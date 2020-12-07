@@ -14,7 +14,17 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int numeroCaramelle;
         float prezzoCaramelle;
-
+        //
+        do{
+            System.out.print("Inserisci il numero di caramelle>0\n> ");
+            numeroCaramelle = input.nextInt();
+        }while(numeroCaramelle<0);
+         do{
+            System.out.print("Inserisci il prezzo di una caramella con due decimali\n> ");
+            prezzoCaramelle = input.nextFloat();
+        }while(prezzoCaramelle<0.00);
+      
+/*
         while (true) {
             System.out.print("Inserisci il numero di caramelle\n> ");
             numeroCaramelle = input.nextInt();
@@ -36,7 +46,7 @@ public class Main {
                 System.out.println("Perfavore inserisci un valore positivo.");
             }
         }
-
+*/
         int numeroDiCaramelleDaComprare;
         boolean caramelleInStock = true;
         float soldiDellUtente;
@@ -48,12 +58,14 @@ public class Main {
 
             if (numeroDiCaramelleDaComprare > 0 && numeroCaramelle >= numeroDiCaramelleDaComprare) {
                 prezzoTotale = numeroDiCaramelleDaComprare * prezzoCaramelle;
-
-                while (true) {
+            do{
+               // while (true) {
                     System.out.println("Totale per " + numeroDiCaramelleDaComprare + " caramelle: " + prezzoTotale + "€");
                     System.out.print("Inserire l'importo da pagare\n> ");
                     soldiDellUtente = input.nextFloat();
-
+                //conviene riscriverlo<-------------------------------------------------------------------------------------
+                
+            }while(soldiDellUtente);
                     if (soldiDellUtente >= prezzoTotale) {
                         resto = soldiDellUtente - prezzoTotale;
                         numeroCaramelle -= numeroDiCaramelleDaComprare;
